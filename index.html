@@ -3,13 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <div id="container"></div>
     <h1 id="gameMessage">Message</h1>
-    X <input type="number" id="xInput">
-    Y <input type="number" id="yInput">
-    <button id="button">Bruh</button>
+    <button id="restart">restart</button>
+    <div id="scoreDisplay">
+        <h3>Scores</h2>
+        <div class="playerScore" id="XScoreDiv">
+            <p>Player X: </p>
+            <p id="XScore">0</p>
+        </div>
+        <div class="playerScore" id="OScoreDiv">
+            <p>Player O: </p>
+            <p id="OScore">0</p>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
